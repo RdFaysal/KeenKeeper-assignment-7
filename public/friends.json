@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Uddin",
+    "picture": "https://randomuser.me/api/portraits/men/11.jpg",
+    "email": "rahim.uddin@example.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university during first year. We study together and play football.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "nusrat.jahan@example.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["work", "colleague"],
+    "bio": "Office colleague, often collaborate on frontend projects.",
+    "goal": 15,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 3,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/22.jpg",
+    "email": "tanvir.ahmed@example.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["school friend"],
+    "bio": "Childhood friend from school days. We lost touch but still reconnect sometimes.",
+    "goal": 20,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 4,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "email": "ayesha.rahman@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["best friend", "college"],
+    "bio": "My best friend from college. We share everything.",
+    "goal": 10,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 5,
+    "name": "Sakib Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/31.jpg",
+    "email": "sakib.hasan@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["gym", "friend"],
+    "bio": "Gym partner. We motivate each other daily.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 6,
+    "name": "Mitu Akter",
+    "picture": "https://randomuser.me/api/portraits/women/32.jpg",
+    "email": "mitu.akter@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["work"],
+    "bio": "Former coworker, still connected on social media.",
+    "goal": 18,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 7,
+    "name": "Jahid Karim",
+    "picture": "https://randomuser.me/api/portraits/men/41.jpg",
+    "email": "jahid.karim@example.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["gaming", "online friend"],
+    "bio": "Met through online gaming community. Very active teammate.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 8,
+    "name": "Farhana Islam",
+    "picture": "https://randomuser.me/api/portraits/women/41.jpg",
+    "email": "farhana.islam@example.com",
+    "days_since_contact": 14,
+    "status": "almost due",
+    "tags": ["college", "study group"],
+    "bio": "Study group partner during university exam preparation.",
+    "goal": 16,
+    "next_due_date": "2026-04-23"
+  },
+  {
+    "id": 9,
+    "name": "Imran Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/52.jpg",
+    "email": "imran.hossain@example.com",
+    "days_since_contact": 40,
+    "status": "overdue",
+    "tags": ["old friend"],
+    "bio": "Old school friend. We rarely talk now but have strong memories.",
+    "goal": 30,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 10,
+    "name": "Sadia Noor",
+    "picture": "https://randomuser.me/api/portraits/women/52.jpg",
+    "email": "sadia.noor@example.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["close friend", "family friend"],
+    "bio": "Family friend who is like a sister to me.",
+    "goal": 7,
+    "next_due_date": "2026-04-16"
+  }
+]
