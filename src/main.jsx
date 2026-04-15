@@ -16,7 +16,11 @@ const router = createBrowserRouter([
     children: [
      {
        index: true,
-      element: <Home></Home>
+      element: <Home></Home>,
+        loader: async () => {
+          const res = await fetch("/friends.json");
+          return res.json();
+        },
      },
      {
       path: "timeline",
