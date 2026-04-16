@@ -7,7 +7,7 @@
     "days_since_contact": 5,
     "status": "on-track",
     "tags": ["college", "close friend"],
-    "bio": "Met in university during first year. We study together and play football.",
+    "bio": "Met in university during first year.",
     "goal": 14,
     "next_due_date": "2026-04-20"
   },
@@ -31,7 +31,7 @@
     "days_since_contact": 30,
     "status": "overdue",
     "tags": ["school friend"],
-    "bio": "Childhood friend from school days. We lost touch but still reconnect sometimes.",
+    "bio": "Childhood friend from school days.",
     "goal": 20,
     "next_due_date": "2026-04-10"
   },
@@ -79,7 +79,7 @@
     "days_since_contact": 7,
     "status": "on-track",
     "tags": ["gaming", "online friend"],
-    "bio": "Met through online gaming community. Very active teammate.",
+    "bio": "Met through online gaming community.",
     "goal": 14,
     "next_due_date": "2026-04-19"
   },
