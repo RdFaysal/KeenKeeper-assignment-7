@@ -2,6 +2,8 @@ import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { toast } from "react-toastify";
 
+import { useTimeline } from "../../context/TimelineContext";
+
 import { RiDeleteBinLine } from "react-icons/ri";
 import { BsArchive } from "react-icons/bs";
 import { RiNotificationSnoozeLine } from "react-icons/ri";
@@ -12,6 +14,8 @@ const FriendDetails = () => {
   const friends = useLoaderData();
   const { id } = useParams();
 
+  const { addTimeline } = useTimeline(); 
+
   const friend = friends.find((f) => f.id === parseInt(id));
 
   if (!friend) {
@@ -19,16 +23,14 @@ const FriendDetails = () => {
   }
 
   const handleAction = (type) => {
-    const old = JSON.parse(localStorage.getItem("timeline")) || [];
-
     const newEntry = {
       id: Date.now(),
-      title: `${type} with ${friend.name}`,
+      title: `${type} with ${friend.name}`, 
       type: type.toLowerCase(),
       date: new Date().toISOString(),
     };
 
-    localStorage.setItem("timeline", JSON.stringify([newEntry, ...old]));
+    addTimeline(newEntry); 
 
     toast.success(`${type} added to timeline!`);
   };
@@ -36,6 +38,7 @@ const FriendDetails = () => {
   return (
     <div className="bg-[#F8FAFC] min-h-screen py-10">
       <div className="max-w-[1000px] mx-auto px-4 grid grid-cols-1 md:grid-cols-6 gap-6">
+
         <div className="grid col-span-2 row-span-3 gap-4">
           <div className="bg-white row-span-2 px-6 py-4 rounded-lg shadow text-center">
             <img
@@ -51,8 +54,8 @@ const FriendDetails = () => {
                 friend.status === "overdue"
                   ? "bg-red-500"
                   : friend.status === "almost due"
-                    ? "bg-yellow-500"
-                    : "bg-green-600"
+                  ? "bg-yellow-500"
+                  : "bg-green-600"
               }`}
             >
               {friend.status}
@@ -153,7 +156,7 @@ const FriendDetails = () => {
                 className="btn h-auto flex flex-col gap-1 py-4"
               >
                 <FiVideo className="text-xl" />
-                <span className=" text-sm">Video</span>
+                <span className="text-sm">Video</span>
               </button>
             </div>
           </div>
